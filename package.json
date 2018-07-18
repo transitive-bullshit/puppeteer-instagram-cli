@@ -1,0 +1,37 @@
+{
+  "name": "puppeteer-instagram-cli",
+  "version": "0.0.0",
+  "description": "CLI for Instagram automation driven by headless chrome.",
+  "main": "index.js",
+  "repository": "transitive-bullshit/puppeteer-instagram-cli",
+  "author": "Travis Fischer <travis@automagical.ai>",
+  "license": "MIT",
+  "reveal": true,
+  "bin": {
+    "instagram": "index.js"
+  },
+  "scripts": {
+    "docs": "update-markdown-usage",
+    "test": "ava -v && standard"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "keywords": [
+    "puppeteer",
+    "instagram"
+  ],
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "execa": "^0.10.0",
+    "standard": "^11.0.0",
+    "update-markdown-usage": "^1.0.1"
+  },
+  "dependencies": {
+    "commander": "^2.16.0",
+    "csv-parse": "^2.5.0",
+    "ext-name": "^5.0.0",
+    "node-compat-require": "^1.0.5",
+    "puppeteer-instagram": "^0.0.1"
+  }
+}
